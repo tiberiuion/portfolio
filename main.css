@@ -58,15 +58,20 @@ a:hover {
 
 .portfolio-item {
   width: 33.33%;
+  padding: 0 0 2em 0;
 }
-
+.portfolio-item-link {
+  text-align: right;
+}
 .details {
   font-size: 0.8em;
   color: #73619B;
+  padding: 0 1em;
 }
 .footer {
   background: #392C57;
   padding: 1em;
+  margin: 2em 0 0 0;
 }
 
 .footer .copy {
@@ -76,6 +81,10 @@ a:hover {
 .global-nav {
   background: #229BA6;
   padding: 1em 0;
+  position: fixed;
+  display: block;
+  width: 100%;
+  top:0;
 }
 
 .global-nav .wrapper {
@@ -83,7 +92,20 @@ a:hover {
   align-items: center;
   justify-content: space-between;
 }
+.work {
+  padding: 5em 0 0 0;
+}
 
+.img-profile {
+  border-radius: 100%;
+}
+
+.about-copy {
+  margin: 0 0 0 2em;
+}
+.about .wrapper {
+  display: flex;
+}
 .global-nav .brand {
   color: #ffffff;
   border: none;
