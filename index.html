@@ -6,28 +6,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tiberiu Ion - designer, wannabe developer</title>
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700|Merriweather:700" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-  <div class="wrapper">
-    <div class="content">
-      <h1 class="title">Tiberiu Ion</h1>
-      <p class="copy__secondary">Digital designer and wannabe web developer</p>
-      <p class="copy">Currently, I’m a Creative Designer at UCAS. I develop HTML email templates and the software behind interactive kiosks deployed at exhibitions.
-      </p>
+  <div class="wrapper wrapper-reverse">
+    <!-- navigation -->
 
-      <p class="copy">
-        If you fancy talking about design, web development or cats, <a href="mailto:tiberiu.vi@gmail.com"> drop me a line</a>.
-      </p>
-      <ul class="socials">
-        <li class="socials__item"><a href="https://twitter.com/">Twitter</a></li>
-        <li class="socials__item"><a href="https://www.instagram.com/tiberiuion91/">Instagram</a></li>
-        <li class="socials__item"><a href="https://github.com/tiberiuion">Github</a></li>
-      </ul>
+    <nav class="nav nav-wrapper">
+      <div class="content content-nav">
+        <div class="brand">
+          <a href="/" class="brand-link">Tiberiu Ion</a>
+        </div>
+        <ul class="nav-group">
+          <li><a class="nav-item" href="#contact">About</a></li>
+          <li><a class="nav-item" href="#work">Work</a></li>
+          <li><a class="nav-item" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end navigation -->
+
+    <div class="content">
+      <div id="about" class="about">
+        <h1 class="title">Tiberiu Ion – digital designer</h1>
+        <p class="copy">Currently, I’m a Creative Designer at UCAS where I create marketing collateral and I also develop HTML email templates and the software
+          behind interactive kiosks deployed at exhibitions.
+        </p>
+      </div>
+      <div class="folio" id="work">
+        <h2>Work</h2>
+        <div class="folio-group">
+          <a class="folio-item" href="/folio-item.html">
+            <img src="http://placehold.it/600x400" alt="folio item" class="folio-item-image">
+            <h3 class="folio-item-header">Worcester Canal Festival</h3>
+          </a>
+          <a class="folio-item" href="/folio-item.html">
+            <img src="http://placehold.it/600x400" alt="folio item" class="folio-item-image">
+            <h3 class="folio-item-header">World Festival</h3>
+          </a>
+          <a class="folio-item" href="/folio-item.html">
+            <img src="http://placehold.it/600x400" alt="folio item" class="folio-item-image">
+            <h3 class="folio-item-header">Black Friday Marketing Collateral</h3>
+          </a>
+          <a class="folio-item" href="/folio-item.html">
+            <img src="http://placehold.it/600x400" alt="folio item" class="folio-item-image">
+            <h3 class="folio-item-header">Photomanipulation</h3>
+          </a>
+        </div>
+      </div>
     </div>
-  </div>
+    <div class="nav nav-wrapper">
+        <div class="content content-nav">
+    <ul class="nav-group" id="contact">
+        <li><a class="socials link nav-item" href="mailto:tiberiu.vi@gmail.com"> Email </a> </li>
+        <li><a class="socials link nav-item" href="https://twitter.com/">Twitter</a></li>
+        <li><a class="socials link nav-item" href="https://www.instagram.com/tiberiuion91/">Instagram</a></li>
+        <li><a class="socials link nav-item" href="https://github.com/tiberiuion">Github</a></li>
+      </ul>
+      </div> 
+    </div>
+  </div> <!-- end wrapper -->
 </body>
 
 </html>
