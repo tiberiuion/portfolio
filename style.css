@@ -97,3 +97,24 @@ body {
 .title {
   padding: 0;
 }
+
+.bday {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 4rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.bday li {
+  flex-grow:1;
+  width: 50%;
+  /* border: 1px solid red; */
+  /* background: red; */
+  text-align: center;
+}
