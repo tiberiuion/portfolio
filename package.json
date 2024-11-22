@@ -1,0 +1,15 @@
+{
+  "name": "tiberiuion.github.io",
+  "version": "1.0.0",
+  "description": "Personal portfolio site",
+  "main": "app.js",
+  "scripts": {
+    "dev": "http-server . -p 3000 -c-1",
+    "build": "echo 'No build step required for static files'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
